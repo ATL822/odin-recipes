@@ -1,0 +1,40 @@
+body {
+    width: auto;
+    background-color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    color: #272343;
+}
+
+.recipe-box, .intro, .recipe-section, .return-home{
+    width: 600px;
+    border: 2px solid #272343;
+    margin: 8px auto;
+}
+
+.intro, .recipe-section {
+    box-sizing: border-box;
+    width: 550px;
+    padding: 10px;
+}
+
+div.intro h1, div.recipe-box h2 {
+    text-align: center;
+}
+
+.return-home {
+    text-align: center;
+    margin: -10px auto;
+    padding: 5px 0px;
+}
+
+div.return-home a {
+    color: #272343;
+}
+
+.light-color {
+    background-color: #e3f6f5;
+}
+
+.dark-color {
+    background-color: #bae8e8;
+}

@@ -1,0 +1,43 @@
+body {
+    box-sizing: border-box;
+    width: auto;
+    background-color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    color: #272343;
+    margin: auto;
+}
+
+.title, .section-list, .section-title, .section {
+    width: 600px;
+    background-color: #e3f6f5;
+    border: 2px solid #272343;
+    margin: 8px auto;
+}
+
+.title {
+    text-align: center;
+}
+
+.section-list {
+    padding: 16px;
+}
+
+.section-title {
+    border: 0px;
+    text-align: center;
+    font-size: large;
+}
+
+.section {
+    box-sizing: content-box;
+    display: inline-block;
+    width: 600px;
+    background-color: #bae8e8;
+    text-align: center;
+}
+
+a {
+    color: #272343;
+    display: block;
+    padding-bottom: 10px;
+}
